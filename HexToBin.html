@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>FoC</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+<body>
+
+<header>
+	<h2><b>Fundamentals of Computing</b></h2>
+</header>
+
+<div id="div_top_hypers"><center>
+    <ul id="ul_top_hypers">
+        <li><a href="index.html" class="a_top_hypers"> Course</a></li>
+        <li>
+			<div class="dropdown">
+				<button class="dropbtn"><a href="project.html" class="a_top_hypers"> Project</a></button>
+				<div class="dropdown-content">
+					<a href="NotGate.html">NOT Gate</a>
+					<a href="AndGate.html">AND Gate</a>
+					<a href="OrGate.html">OR Gate</a>
+					<a href="XorGate.html">XOR Gate</a>
+					<a href="FlipFlop.html">Flip-Flop Circuit</a>
+					<a href="BMI.html">BMI Calculator</a>
+					<a href="HexToBin.html">Hexidecimal Converter</a>
+					<a href="ASCIIConverter.html">ASCII Converter</a>
+					<a href="UnicodeConverter.html">Unicode Converter</a>
+		</li>
+        <li><a href="concepts.html" class="a_top_hypers"> Concepts</a></li>
+        <li><a href="database.html" class="a_top_hypers"> Databases</a></li>
+        <li><a href="documentation.html" class="a_top_hypers"> Documentation</a></li>
+		<li><a href="aboutme.html" class="a_top_hypers"> Dev Team</a></li>
+    </ul>
+</div>
+
+<section>
+  <article>
+	<p></p>
+	<h1> Hexadecimal to Binary Converter </h1>
+		<p>
+		This page will show the process in which hexadecimals are converted into binary notation and viceversa. 
+		</p>
+		<table>
+			<tr>
+				<td>
+					<table>
+						<tr>
+							<th>Hex</th>
+							<th>Binary</th>
+							<th>Hex</th>
+							<th>Binary</th>
+						</tr>
+						<tr>
+							<td>0</td>
+							<td>0000</td>
+							<td>8</td>
+							<td>1000</td>
+						</tr>
+						<tr>
+							<td>1</td>
+							<td>0001</td>
+							<td>9</td>
+							<td>1001</td>
+						</tr>
+						<tr>
+							<td>2</td>
+							<td>0010</td>
+							<td>A</td>
+							<td>1010</td>
+						</tr>
+						<tr>
+							<td>3</td>
+							<td>0011</td>
+							<td>B</td>
+							<td>1011</td>
+						</tr>
+						<tr>
+							<td>4</td>
+							<td>0100</td>
+							<td>C</td>
+							<td>1100</td>
+						</tr>
+						<tr>
+							<td>5</td>
+							<td>0101</td>
+							<td>D</td>
+							<td>1101</td>
+						</tr>
+						<tr>
+							<td>6</td>
+							<td>0110</td>
+							<td>E</td>
+							<td>1110</td>
+						</tr>
+						<tr>
+							<td>7</td>
+							<td>0111</td>
+							<td>F</td>
+							<td>1111</td>
+						</tr>
+					</table>
+				</td>
+				<form name="HtoBform">
+				<td>
+				<p>
+					Enter any Hexadecimal: <input type="text" name="hex" size="15"><br>
+					<i>*A hexadecimal can only be of the symbols A-F and 0-9.</i><br><br>
+					<input type="button" value="Convert Hexadecimal to Binary" onClick="hex2bin()"><br><br>
+					Hexadecimal in Binary: <input type="text" name="binary" size="15"><br/>
+					<p>
+				</td>
+		</form>
+				<script src="hextobin.js"></script>
+			</tr>
+		</table>
+ </article>
+</section>
+
+		
+<footer>
+  <p>@ Powered by UB</p>
+</footer>
+
+</body>
+</html>
